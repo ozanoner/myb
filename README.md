@@ -1,1 +1,3 @@
 # myb
+
+Ornek kodlar
