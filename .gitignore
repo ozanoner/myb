@@ -33,3 +33,5 @@
 
 #temp files
 *~
+*.swp
+odev
