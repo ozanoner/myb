@@ -22,10 +22,10 @@ public:
 int main() {
 	// kullznici tanimli uye fonksiyon
 	// _1 -> nesneye karsilik gelir. gerisi fonksiyon parametre
-	bind(&Carpim<int>::yazdir, _1, 2)(Carpim<int>(5));
+	bind(&Carpim<int>::yazdir, _1, 2)(new Carpim<int>(5));
 
 	// veya
 	auto carpim3 = bind(&Carpim<int>::yazdir, _1, 3);
-	carpim3(Carpim<int>(10));
-	carpim3(Carpim<int>(5));
+	carpim3(new Carpim<int>(10));
+	carpim3(new Carpim<int>(5));
 }
