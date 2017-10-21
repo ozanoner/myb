@@ -34,4 +34,7 @@
 #temp files
 *~
 *.swp
+
+#hidden folders
 odev
+books
