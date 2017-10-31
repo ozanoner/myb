@@ -4,11 +4,14 @@
 #ifndef KisiSirala_h_
 #define KisiSirala_h_
 
+
 using namespace std;
 
 class KisiAdiSirala {
 public:
 	bool operator() (const Kisi& el1, const Kisi& el2) {
+		cout << el1.to_string() << " " << el2.to_string() << endl;
+		cout << "=========\n";
 		return el1.get_adi()<el2.get_adi() ||
 			(el1.get_adi()==el2.get_adi() && 
 			 	el1.get_soyadi()<el2.get_soyadi());
