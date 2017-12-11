@@ -34,8 +34,10 @@
 #temp files
 *~
 *.swp
+*.bck
 
 #hidden folders
 odev
 sinav
 books
+tmp
