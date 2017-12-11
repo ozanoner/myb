@@ -7,10 +7,10 @@
 using namespace std;
 
 int main() {
-	// GET - READ komutu 
-	auto r = cpr::Get(\
-			cpr::Url{"http://jsonplaceholder.typicode.com/users"},\
-			cpr::Parameters{{"username","Bret"}});
+	// PUT - UPDATE komutu 
+	auto r = cpr::Put(\
+			cpr::Url{"http://jsonplaceholder.typicode.com/albums/3"},
+			cpr::Payload{{"userId","5"},{"title","album guncelleme"}});
 		
 	// HTTP response status
 	cout << r.status_code << endl; 

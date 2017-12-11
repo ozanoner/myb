@@ -1,4 +1,4 @@
-g++ t3.cpp -DCURL_STATICLIB -Iinclude -Llib -lcurl -lwsock32 -lwinmm -Wall -std=c++14 -lpthread
+g++ t3.cpp -Iinclude -Llib -lcurl -std=c++14 && a.exe
 
 downloads:
 https://github.com/vszakats/harbour-deps
@@ -9,3 +9,6 @@ http://www.httpbin.org/
 https://jsonplaceholder.typicode.com/
 
 
+docs:
+https://github.com/typicode/jsonplaceholder#how-to
+https://whoshuu.github.io/cpr/introduction.html
