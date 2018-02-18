@@ -41,3 +41,8 @@ odev
 sinav
 books
 tmp
+
+# vs temp files and folders
+bin/
+obj/
+.vs
