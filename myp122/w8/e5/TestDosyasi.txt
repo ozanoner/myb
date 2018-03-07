@@ -1,0 +1,3 @@
+﻿Bu bir deneme
+Satir 2
+Satir 3
