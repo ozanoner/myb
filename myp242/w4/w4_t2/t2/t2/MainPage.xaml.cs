@@ -48,6 +48,10 @@ namespace t2
             kaydet.Text = "Kaydet";
             kaydet.HorizontalOptions = LayoutOptions.Fill;
             kaydet.Clicked += Kaydet_Clicked;
+            BoxView kutu = new BoxView();
+            kutu.BackgroundColor = Color.Wheat;
+            kutu.HorizontalOptions = LayoutOptions.Fill;
+            kutu.HeightRequest = 50;
 
             StackLayout layout = new StackLayout();
             layout.Children.Add(baslik);
@@ -57,6 +61,7 @@ namespace t2
             layout.Children.Add(notlar);
             layout.Children.Add(resim);
             layout.Children.Add(kaydet);
+            layout.Children.Add(kutu);
 
             //this.Content = layout;
             ScrollView scroll = new ScrollView();
@@ -64,8 +69,6 @@ namespace t2
 
             this.Content = scroll;
             this.Padding = new Thickness(10, 0, 10, 5);
-
-            
         }
 
         private void Kaydet_Clicked(object sender, EventArgs e)
