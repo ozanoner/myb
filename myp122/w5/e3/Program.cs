@@ -25,7 +25,7 @@ namespace e3
 
         public static int SiradakiYeniNo()
         {
-            // ONEMLI: sadece SINIF DEGISKENLERI kullanilabilir
+            // ONEMLI: sadece diger STATIC ler kullanilabilir
             return Kitap.yeniNo + 1;
         }
     }
