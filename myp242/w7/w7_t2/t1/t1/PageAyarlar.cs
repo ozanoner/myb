@@ -30,13 +30,13 @@ namespace t2
                 RowSpacing = 20,
                 RowDefinitions =
                 {
-                    new RowDefinition() { Height = new GridLength(1, GridUnitType.Auto) },
-                    new RowDefinition() { Height = new GridLength(1, GridUnitType.Auto) },
+                    new RowDefinition() { Height = GridLength.Auto },
+                    new RowDefinition() { Height = GridLength.Auto },
                 },
                 ColumnDefinitions =
                 {
-                    new ColumnDefinition() {Width = new GridLength(1, GridUnitType.Star) },
-                    new ColumnDefinition() {Width = new GridLength(1, GridUnitType.Star) },
+                    new ColumnDefinition() {Width = GridLength.Star },
+                    new ColumnDefinition() {Width = GridLength.Star },
                 }
             };
 
